@@ -1,7 +1,7 @@
 <h1 align="center">Behance Community Art Recommender</h1>
 <h3 align="center">SOEN 471 - Big Data Analytics Project</h1>
 
-Report Structure
+## Report Structure
 1. Abstract
 2. Dataset Description
 3. Research question (1)
