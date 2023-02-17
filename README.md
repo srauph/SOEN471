@@ -13,3 +13,12 @@ Report Structure
     * Explanation of how algorithm ties in with project
 7. Algorithm (2)
     * Explanation of how algorithm ties in with project
+    
+ ## Team Members:
+
+| Name              | Student ID |
+| ----------------- | ---------- |
+| Laila Alhalabi    | 40106558   |
+| Marwa Khalid      | 40155098   |
+| Zafir Khalid      | 40152164   |
+| Shuaib Rauph.     | 40134457   |
