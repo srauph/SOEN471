@@ -12,10 +12,12 @@
 
 ## Report Structure
 1. Abstract
+
 The major goal of Adobe's social media site Behance is to promote and help people find creative work. Joining Behance allows creatives from all over the world to participate in a community that was built with their original work and creative process in mind. 
 
 2. Dataset Description
-The "appreciate" data, which comprises of 1 million appreciates from 63,497 users on 178,788 items (i.e. projects on https://www.behance.net/), can only be released in part due to the sensitive nature of the data. Only a portion of the "appreciate" data, which includes 1 million appreciates from 63,497 people on 178,788 items (i.e. projects on https://www.behance.net/), can be made public due to data sensitivity. From June 9, 2011, to November 14, 2011, these appreciations took place. Therefore, in this project we will discuss two research questions.
+
+Only a portion of the "appreciate" data, which includes 1 million appreciates from 63,497 people on 178,788 items (i.e. projects on https://www.behance.net/), can be made public due to data sensitivity. From June 9, 2011, to November 14, 2011, these appreciations took place. Therefore, in this project we will discuss two research questions.
 
 3. Research question (1): 
     * Is it possible to predict the frequent itemsets in the dataset?
