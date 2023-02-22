@@ -16,7 +16,7 @@
 
 ## Abstract
 
-This project proposes a food recommender system that utilizes user preferences and dietary restrictions to suggest meals that are both personalized and healthy. The dataset used includes more than 180K recipes and 700K reviews that were uploaded to Food.com over the course of 18 years (formerly GeniusKitchen). Using this data, the system applies a recommendation algorithm to suggest meals that meet the user's dietary restrictions, health goals, and taste preferences. Additionally, the system provides nutritional information for each recommended meal and offers the option to filter meals by specific macro and micronutrient requirements. The proposed system aims to assist users in making informed food choices and to encourage healthier eating habits.
+This project proposes a food recommender system that utilizes user preferences and dietary restrictions to suggest meals that are both personalized and healthy. The dataset used includes more than 230K+ recipes and 1M+ interactions that were uploaded to Food.com over the course of 18 years (formerly GeniusKitchen). Using this data, the system applies a recommendation algorithm to suggest meals that meet the user's dietary restrictions, health goals, and taste preferences. Additionally, the system provides nutritional information for each recommended meal. The proposed system aims to assist users in making informed food choices and to encourage healthier eating habits.
 
 ## Dataset Description
 
