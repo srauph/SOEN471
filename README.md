@@ -16,7 +16,7 @@
 
 ## Abstract
 
-This project proposes a food recommender system that utilizes user preferences and dietary restrictions to suggest meals that are both personalized and healthy. The dataset used includes more than 230K+ recipes and 1M+ interactions that were uploaded to Food.com over the course of 18 years (formerly GeniusKitchen). Using this data, the system applies a recommendation algorithm to suggest meals that meet the user's dietary restrictions, health goals, and taste preferences. Additionally, the system provides nutritional information for each recommended meal. The proposed system aims to assist users in making informed food choices and to encourage healthier eating habits.
+This project proposes a food recommender system that utilizes user preferences and dietary restrictions to suggest meals that are both personalized and healthy. The dataset used includes more than 180K recipes and 700K reviews that were uploaded to Food.com over the course of 18 years (formerly GeniusKitchen). Using this data, the system applies a recommendation algorithm to suggest meals that meet the user's dietary restrictions, health goals, and taste preferences. Additionally, the system provides nutritional information for each recommended meal and offers the option to filter meals by specific macro and micronutrient requirements. The proposed system aims to assist users in making informed food choices and to encourage healthier eating habits.
 
 ## Dataset Description
 
@@ -75,14 +75,21 @@ How can the recommender system take into account the availability of ingredients
 How can the recommender system personalize recipe recommendations based on the user's preferences (i.e calories)?
 
 ## Model classes
-[MODEL CLASSES HERE]
+
+ - Recommender Engine + Clustering/KNN
+    - To answer the first research question, we can make use of ingredient information from recommended recipes and transform it into a vectorized format. The model would then compare the user's pantry inventory to the recommended recipe's ingredients vector using similarity measures such as cosine similarity or Jaccard similarity. Recipes that have a higher similarity score would be recommended to the user.
+
+- Collaborative Filtering
+    - Collaborative filtering could be used to identify users with similar preferences in terms of calorie intake, and recommend recipes that have been positively rated by those users. Additionally, collaborative filtering can be enhanced by incorporating additional user and recipe features, such as dietary restrictions, cooking time, ingredients, and cuisine type, to provide even more personalized recommendations. 
+
+
 
 ## Algorithm (1)
-[ALGORITHM 1 HERE]
+Content based recommender engine + Clustering/KNN (to filter out recipes that do not match the users pantry of ingredients).
 
 ## Algorithm (2)
-[ALGORITHM 2 HERE]
-    
+Collaborative Filtering Recommender System (to match users with similar dietry preferences to each other).
+
 ---
  
 ## Team Members
