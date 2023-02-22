@@ -1,6 +1,10 @@
 <h1 align="center">Food.com Recipe Recommender</h1>
 <h3 align="center">SOEN 471 - Big Data Analytics Project</h3>
 
+## Abstract
+
+This project proposes a food recommender system that utilizes user preferences and dietary restrictions to suggest meals that are both personalized and healthy. The dataset used includes more than 230K recipes and 1M reviews that were uploaded to Food.com over the course of 18 years (formerly GeniusKitchen). Using this data, the system applies a recommendation algorithm to suggest meals that meet the user's dietary restrictions, health goals, and taste preferences. Additionally, the system provides nutritional information for each recommended meal and offers the option to filter meals by specific macro and micronutrient requirements. The proposed system aims to assist users in making informed food choices and to encourage healthier eating habits.
+
 ## Table of Contents
 
 - [Dataset Description](#dataset-description)
@@ -10,13 +14,6 @@
 - [Algorithm (1)](#algorithm-1)
 - [Algorithm (2)](#algorithm-2)
 - [Team Members](#team-members)
-
-
-
-
-## Abstract
-
-This project proposes a food recommender system that utilizes user preferences and dietary restrictions to suggest meals that are both personalized and healthy. The dataset used includes more than 180K recipes and 700K reviews that were uploaded to Food.com over the course of 18 years (formerly GeniusKitchen). Using this data, the system applies a recommendation algorithm to suggest meals that meet the user's dietary restrictions, health goals, and taste preferences. Additionally, the system provides nutritional information for each recommended meal and offers the option to filter meals by specific macro and micronutrient requirements. The proposed system aims to assist users in making informed food choices and to encourage healthier eating habits.
 
 ## Dataset Description
 
@@ -83,16 +80,15 @@ How can the recommender system personalize recipe recommendations based on the u
     - Collaborative filtering could be used to identify users with similar preferences in terms of calorie intake, and recommend recipes that have been positively rated by those users. Additionally, collaborative filtering can be enhanced by incorporating additional user and recipe features, such as dietary restrictions, cooking time, ingredients, and cuisine type, to provide even more personalized recommendations. 
 
 
-
 ## Algorithm (1)
 Content based recommender engine + Clustering/KNN (to filter out recipes that do not match the users pantry of ingredients).
 
 ## Algorithm (2)
 Collaborative Filtering Recommender System (to match users with similar dietry preferences to each other).
 
----
+ ---
  
-## Team Members
+<h2 align="center">Team Members</h2>
 
 <div align="center">
   <table>
