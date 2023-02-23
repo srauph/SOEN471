@@ -84,7 +84,7 @@ How can the recommender system personalize recipe recommendations based on the u
 Content based recommender engine + KNN (to filter out recipes that do not match the users pantry of ingredients). The KNN method will make use of one hot encoding to check similarity between vectors. For example, in a scenario where the only ingredients for a recipe are ``[apple, banana, pear]`` and the pantry of a user has ``[apple, pear]`` and all the ingredients in existance are ``[kiwi, apple, banana, pear]``- the similarity between ``[0,1,1,1]`` and ``[0,1,0,1]`` will be compared.
 
 ## Algorithm (2)
-Collaborative Filtering Recommender System (to match users with similar dietry preferences to each other).
+Collaborative Filtering Recommender System (to match users with similar dietry preferences to each other). This perhaps could be done by looking metadata of each recipe. For instance nutrition facts of a recipe.
 
  ---
  
