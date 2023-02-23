@@ -73,7 +73,7 @@ How can the recommender system personalize recipe recommendations based on the u
 
 ## Model classes
 
- - Recommender Engine + Clustering/KNN
+ - Recommender Engine + KNN
     - To answer the first research question, we can make use of ingredient information from recommended recipes and transform it into a vectorized format. The model would then compare the user's pantry inventory to the recommended recipe's ingredients vector using similarity measures such as cosine similarity or Jaccard similarity. Recipes that have a higher similarity score would be recommended to the user.
 
 - Collaborative Filtering
@@ -81,7 +81,7 @@ How can the recommender system personalize recipe recommendations based on the u
 
 
 ## Algorithm (1)
-Content based recommender engine + Clustering/KNN (to filter out recipes that do not match the users pantry of ingredients).
+Content based recommender engine + KNN (to filter out recipes that do not match the users pantry of ingredients). The KNN method will make use of one hot encoding to check similarity between vectors. For example, in a scenario where the only ingredients for a recipe are ``[apple, banana, pear]`` and the pantry of a user has ``[apple, pear]`` and all the ingredients in existance are ``[kiwi, apple, banana, pear]``- the similarity between ``[0,1,1,1]`` and ``[0,1,0,1]`` will be compared.
 
 ## Algorithm (2)
 Collaborative Filtering Recommender System (to match users with similar dietry preferences to each other).
