@@ -2,3 +2,4 @@ clean_data/
 RAW_interactions.csv
 RAW_recipes.csv
 .ipynb_checkpoints/
+venv/
